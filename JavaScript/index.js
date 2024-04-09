@@ -16,7 +16,7 @@ var control = L.Routing.control(L.extend(window.lrmConfig, {
 	waypoints: [],
 	geocoder: geocoder,
 	reverseWaypoints: true,
-	showAlternatives: false,
+	showAlternatives: true,
 	fitSelectedRoutes: true,
 	altLineOptions: {
 		styles: [
